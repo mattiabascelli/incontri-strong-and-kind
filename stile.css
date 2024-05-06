@@ -1,0 +1,78 @@
+﻿body {
+    background: url('img/sfondo.jpg') fixed;
+}
+
+.foglio {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background: url('img/backgroundGenerator.jpg');
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 1px 20px 20px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+    .foglio img {
+        max-width: 500px;
+        width: 80%;
+        height: auto;
+        margin: 5px auto;
+    }
+
+    .foglio h2 {
+        background-color: black;
+        color: white;
+    }
+
+    .foglio li {
+        text-align: left;
+        color: white;
+        font-size: 18px;
+        list-style-type: square;
+    }
+
+.d20 {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+    .d20 input {
+        background-color: brown;
+        color: white;
+        padding: 5px;
+        margin: 5px;
+        width: 50%;
+        height: auto;
+        max-width: 350px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+
+        .d20 input:hover {
+            background-color: darkgreen;
+            cursor: pointer;
+        }
+
+        .d20 input:active {
+            background-color: green;
+        }
+
+.black {
+    background-color: black;
+    max-width: 300px;
+    width: 75%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5px auto;
+}
+
+#story {
+    background-color: white;
+}
+
+#author {
+    background-color: white;
+}body
+{
+}
