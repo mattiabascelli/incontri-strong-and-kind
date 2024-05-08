@@ -1,4 +1,4 @@
-// JavaScript source code
+ï»¿// JavaScript source code
 function fightGenerator() {
     const MAX = 4;
     var num = Math.trunc(MAX * Math.random()) + 1;
@@ -26,7 +26,7 @@ function fightGenerator() {
             forzaAgilita.innerHTML = "FORZA +0 - AGILITA' +2";
             istintoCotenna.innerHTML = "ISTINTO +0 COTENNA +2";
             arma.innerHTML = "Arco Lungo Bucchianichese - 1d6+2";
-            story.innerHTML = "L'orso BEARnando \u00E8 una versione anomala rispetto ai classici Orsi Marsicani: \u00E8 piú magro degli altri (sará solo una questione di pelo?), ma comunque atletico ed inesauribile. Ha sempre uno zanio in spalla in quanto viaggiatore in terre lontane e vicine. Con o senza armatura, veste sempre con camicia dalle maniche arrotolate, bretelle, pantaloni corti e calzari che ricordano quasi delle Converse!";
+            story.innerHTML = "L'orso BEARnando \u00E8 una versione anomala rispetto ai classici Orsi Marsicani: \u00E8 piÃº magro degli altri (sarÃ¡ solo una questione di pelo?), ma comunque atletico ed inesauribile. Ha sempre uno zanio in spalla in quanto viaggiatore in terre lontane e vicine. Con o senza armatura, veste sempre con camicia dalle maniche arrotolate, bretelle, pantaloni corti e calzari che ricordano quasi delle Converse!";
             author.innerHTML = "Simone Zuccarini";
             break;
         case 3:
@@ -39,7 +39,7 @@ function fightGenerator() {
             forzaAgilita.innerHTML = "FORZA +2 - AGILITA' -1";
             istintoCotenna.innerHTML = "ISTINTO -1 COTENNA+2";
             arma.innerHTML = "Mattarello 'Judizie' - 1d4+2";
-            story.innerHTML = "Giannina \u00E8 un’orsa anziana, vedova di lupo di mare che ogni tanto scuoteva per convincerlo di avere ragione. Dalla scomparsa del Compagno ha capito che la vita va' vissuta bene, e per questo ha iniziato a fumare cicoria e giocare a carte con chiunque le capiti a tiro. Per Giannnina il cibo è sacro, anche se cade dal tavolo basta soffiare, e va’ mangiato tutto in un sol boccone. Sempre! Si narra che è impossibile mangiare lo stufato velocemente come lei, alcuni giurano di averla vista rincorrere un istrice per cibarsene.";
+            story.innerHTML = "Giannina \u00E8 unâ€™orsa anziana, vedova di lupo di mare che ogni tanto scuoteva per convincerlo di avere ragione. Dalla scomparsa del Compagno ha capito che la vita va' vissuta bene, e per questo ha iniziato a fumare cicoria e giocare a carte con chiunque le capiti a tiro. Per Giannnina il cibo Ã¨ sacro, anche se cade dal tavolo basta soffiare, e vaâ€™ mangiato tutto in un sol boccone. Sempre! Si narra che Ã¨ impossibile mangiare lo stufato velocemente come lei, alcuni giurano di averla vista rincorrere un istrice per cibarsene.";
             author.innerHTML = "Moreno Ranalli";
             break;
         default:
