@@ -1,6 +1,6 @@
 ﻿// JavaScript source code
 function fightGenerator() {
-    const MAX = 4;
+    const MAX = 5;
     var num = Math.trunc(MAX * Math.random()) + 1;
     switch (num) {
         case 1:
@@ -42,7 +42,7 @@ function fightGenerator() {
             story.innerHTML = "Giannina \u00E8 un’orsa anziana, vedova di lupo di mare che ogni tanto scuoteva per convincerlo di avere ragione. Dalla scomparsa del Compagno ha capito che la vita va' vissuta bene, e per questo ha iniziato a fumare cicoria e giocare a carte con chiunque le capiti a tiro. Per Giannnina il cibo è sacro, anche se cade dal tavolo basta soffiare, e va’ mangiato tutto in un sol boccone. Sempre! Si narra che è impossibile mangiare lo stufato velocemente come lei, alcuni giurano di averla vista rincorrere un istrice per cibarsene.";
             author.innerHTML = "Moreno Ranalli";
             break;
-        default:
+        case 4:
             incontro.src = "img/incontro_" + num + ".jpg";
             nome.innerHTML = "Isidoro Pungirovo";
             description1.innerHTML = "Cinghiale - Bruto - Pretoro (CH)";
@@ -54,5 +54,18 @@ function fightGenerator() {
             arma.innerHTML = "Ascia 'gnorante - 1d8+3";
             story.innerHTML = "Isidoro \u00E8 solo. Isidoro \u00E8 in cerca di avventure, in cerca di uno scopo pi\u00F9 grande. Sopravvive, lotta sempre. Puoi assumerlo come guardia del corpo o assoldarlo. Non fa domande, si getta nella mischia, CARICA... Porta a termine il suo compito. Ogni volta una nuova cicatrice, medaglia al valore sulla sua cotenna. Combatte, mangia e ama con pari foga. Il destino lo condurr\u00E0 allo scopo grande. Nel frattempo si carica e BASTHA!";
             author.innerHTML = "Francesco Bucciarelli";
+            break;
+        default:
+            incontro.src = "img/incontro_" + num + ".jpg";
+            nome.innerHTML = "Luca Rovoli";
+            description1.innerHTML = "Lupo Appenninico - Bruto - Teramo (TE)";
+            vita.innerHTML = "VITA: 8";
+            morale.innerHTML = "MORALE: / ";
+            rDanno.innerHTML = "R.DANNO: 1d4+1";
+            forzaAgilita.innerHTML = "FORZA +2 - AGILITA' -1";
+            istintoCotenna.innerHTML = "ISTINTO +1 COTENNA+2";
+            arma.innerHTML = "2 x Spadaccia - 1d8+2";
+            story.innerHTML = "<strong>Peculiarità:</strong> Luca effettua due attacchi, il secondo con difficoltà aumentatata di 4.<br /><br/>Luca è stato cresciuto a Teramo dal nonno e ha imparato lì i modi teramani. La prima cosa che s'è imparato e stata a bere il vino, poi a fare a mazzate, perché le dure strade di Teramo non perdonano. Dopo la morte del nonno ha iniziato a fare il mercenario per tutto il reame e a guadagnarsi da vivere come cacciatore di taglie. Ha una dipendenza per la genziana ben distillata.";
+            author.innerHTML = "Lorenzo Angelozzi";
     }
 }
