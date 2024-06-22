@@ -2,6 +2,13 @@
     background: url('img/sfondo.jpg') fixed;
 }
 
+a {
+    color: red;
+}
+
+a:hover {
+    color:brown;
+}
 .foglio {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
