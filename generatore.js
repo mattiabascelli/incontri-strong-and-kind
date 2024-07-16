@@ -1,6 +1,6 @@
 ﻿// JavaScript source code
 function fightGenerator() {
-    const MAX = 5;
+    const MAX = 9;
     var num = Math.trunc(MAX * Math.random()) + 1;
     switch (num) {
         case 1:
@@ -55,6 +55,58 @@ function fightGenerator() {
             story.innerHTML = "Isidoro \u00E8 solo. Isidoro \u00E8 in cerca di avventure, in cerca di uno scopo pi\u00F9 grande. Sopravvive, lotta sempre. Puoi assumerlo come guardia del corpo o assoldarlo. Non fa domande, si getta nella mischia, CARICA... Porta a termine il suo compito. Ogni volta una nuova cicatrice, medaglia al valore sulla sua cotenna. Combatte, mangia e ama con pari foga. Il destino lo condurr\u00E0 allo scopo grande. Nel frattempo si carica e BASTHA!";
             author.innerHTML = "Francesco Bucciarelli";
             break;
+        case 5:
+            incontro.src = "img/incontro_" + num + ".jpg";
+            nome.innerHTML = "Irsinio Dolcinote";
+            description1.innerHTML = "Volpe - Scaltro - Lanciano (CH)";
+            vita.innerHTML = "VITA: 7";
+            morale.innerHTML = "MORALE: / ";
+            rDanno.innerHTML = "R.DANNO: 1d4";
+            forzaAgilita.innerHTML = "FORZA +0 - AGILITA' +2";
+            istintoCotenna.innerHTML = "ISTINTO +2 COTENNA +0";
+            arma.innerHTML = "Coltellaccio - 1d4+2";
+            story.innerHTML = "Irsinio, se questo \u00E8 il suo vero nome, \u00E8 una scaltro Musicante! Amato a suo dire da tutte le nobil donne del regno, ma odiato da i loro mariti. Per qualche soldo suonera' al tuo matrimoni o al tuo funerale...";
+            author.innerHTML = "Anonimo";
+            break;
+        case 6:
+            incontro.src = "img/incontro_" + num + ".jpg";
+            nome.innerHTML = "Bretella Marachella";
+            description1.innerHTML = "Mazzamurello";
+            vita.innerHTML = "VITA: 8";
+            morale.innerHTML = "MORALE: / ";
+            rDanno.innerHTML = "R.DANNO: 1d4-1";
+            forzaAgilita.innerHTML = "FORZA -2 - AGILITA' +4";
+            istintoCotenna.innerHTML = "ISTINTO +2 COTENNA -1";
+            arma.innerHTML = "Mazza 1d6";
+            story.innerHTML = "Bretella \u00E8 una mazzamurella pestifera e curiosa. Adora passare le giornate ad organizzare burle fantastiche ai poveri disgraziati che mettono piede nel suo territorio... ";
+            author.innerHTML = "Abilita' mazzamurello consulta il manuale";
+            break;
+        case 7:
+            incontro.src = "img/incontro_" + num + ".jpg";
+            nome.innerHTML = "Lu' Biond";
+            description1.innerHTML = "Radice Selvaggia di Genziana";
+            vita.innerHTML = "VITA: 87";
+            morale.innerHTML = "MORALE: / ";
+            rDanno.innerHTML = "R.DANNO: 1d6";
+            forzaAgilita.innerHTML = "FORZA +1 - AGILITA' -1";
+            istintoCotenna.innerHTML = "ISTINTO +2 COTENNA -1";
+            arma.innerHTML = "Coltello 1d4 + 1d4 Veleno";
+            story.innerHTML = "Lu' Biond \u00E8 uno dei rari esempi di Radice Addomensticata. Purtroppo per il suo padrone la sua voglia di indipendenza ha prevalso.. ora vaga il regno facendosi assoldare come sicario a basso costo..  ";
+            author.innerHTML = "Abilita' radice selvaggia di genziana consulta il manuale";
+            break;    
+        case 8:
+            incontro.src = "img/incontro_" + num + ".jpg";
+            nome.innerHTML = "Alfredo Spaccacoccie";
+            description1.innerHTML = "Montone Errante";
+            vita.innerHTML = "VITA: 24";
+            morale.innerHTML = "MORALE: 9 ";
+            rDanno.innerHTML = "R.DANNO: 1d6";
+            forzaAgilita.innerHTML = "FORZA +3 - AGILITA' +0";
+            istintoCotenna.innerHTML = "ISTINTO +1 COTENNA +0";
+            arma.innerHTML = "Ascia 1d8";
+            story.innerHTML = "Alfredo \u00E8 un cacciatore di taglie. Accanito fumatore, è facile avvertire il suo arrivo oltre che dal campanaccio anche dai suoi colpi di tosse. Se non \u00E8 impegnato nella caccia \u00E8  dotto ed affabile.";
+            author.innerHTML = "Abilita' montone errante consulta il manuale";
+            break; 
         default:
             incontro.src = "img/incontro_" + num + ".jpg";
             nome.innerHTML = "Luca Rovoli";
